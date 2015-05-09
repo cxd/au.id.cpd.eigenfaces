@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="973c0679-5127-44b1-982c-728c95d705bd" name="Default" comment="" />
+    <list default="true" id="973c0679-5127-44b1-982c-728c95d705bd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/AboutBox.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/EigenfacesApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/ImageModelPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/Model.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/SearchConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/SearchResultModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/View$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/View$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/View$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/View$Mode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/View.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/tasks/CreateTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/tasks/SearchTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/xml/Model.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/xml/ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/classes/au/id/cpd/eigenfaces/ui/xml/package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/generated-sources/jaxb/.staleFlag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/generated-sources/jaxb/au/id/cpd/eigenfaces/ui/xml/Model.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/generated-sources/jaxb/au/id/cpd/eigenfaces/ui/xml/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/target/generated-sources/jaxb/au/id/cpd/eigenfaces/ui/xml/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/Model.xsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/GrayscaleImageLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/IImageDataModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/IImageDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ImageDataModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ImageDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ImageDirectoryLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/SearchQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/FeatureMatrixLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/ImageDataLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/LabelDeserializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/LabelSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/LearningAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/SearchAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/operators/VectorMatrixLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ui/ImagePanel$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ui/ImagePanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer$CloseAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer$OpenAction$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer$OpenAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/test/TestGrayscaleImageLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/test/TestImageLoaderAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/test/TestImageModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/bin/au/id/cpd/eigenfaces/test/TestPCM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/GrayscaleImageLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/IImageDataModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/IImageDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ImageDataModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ImageDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ImageDirectoryLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/SearchQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/FeatureMatrixLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/ImageDataLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/LabelDeserializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/LabelSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/LearningAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/SearchAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/operators/VectorMatrixLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ui/ImagePanel$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ui/ImagePanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer$CloseAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer$OpenAction$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer$OpenAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/classes/au/id/cpd/eigenfaces/data/ui/MatrixDataViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/TEST-au.id.cpd.eigenfaces.test.TestGrayscaleImageLoader.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/TEST-au.id.cpd.eigenfaces.test.TestImageLoaderAdapter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/TEST-au.id.cpd.eigenfaces.test.TestImageModel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/TEST-au.id.cpd.eigenfaces.test.TestPCM.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/au.id.cpd.eigenfaces.test.TestGrayscaleImageLoader.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/au.id.cpd.eigenfaces.test.TestImageLoaderAdapter.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/au.id.cpd.eigenfaces.test.TestImageModel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/surefire-reports/au.id.cpd.eigenfaces.test.TestPCM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/test-classes/au/id/cpd/eigenfaces/test/TestGrayscaleImageLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/test-classes/au/id/cpd/eigenfaces/test/TestImageLoaderAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/test-classes/au/id/cpd/eigenfaces/test/TestImageModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/au.id.cpd.eigenfaces/target/test-classes/au/id/cpd/eigenfaces/test/TestPCM.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="au.id.cpd.eigenfaces-parent.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +140,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestImageModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestImageModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/au.id.cpd.eigenfaces/test/test/TestImageModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41369864">
-              <caret line="84" column="46" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54404145">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -111,16 +204,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.mf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/manifest.mf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/src/au/id/cpd/eigenfaces/ui/tasks/CreateTask.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,6 +215,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="cxd" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -329,7 +420,7 @@
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -434,10 +525,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="au.id.cpd.eigenfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -830,18 +917,21 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing" SSL_PROTOCOLS="sslv3">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="973c0679-5127-44b1-982c-728c95d705bd" name="Default" comment="" />
       <created>1431155878924</created>
       <option name="number" value="Default" />
       <updated>1431155878924</updated>
-      <workItem from="1431155882054" duration="1236000" />
+      <workItem from="1431155882054" duration="1587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1236000" />
+    <option name="totallyTimeSpent" value="1587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -850,12 +940,12 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -867,7 +957,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
@@ -879,6 +969,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -978,8 +1072,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/au.id.cpd.eigenfaces/test/test/TestImageModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41369864">
-          <caret line="84" column="46" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54404145">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
