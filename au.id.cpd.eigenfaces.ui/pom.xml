@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>au.id.cpd.algorithms</groupId>
+        <artifactId>au.id.cpd.eigenfaces-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>au.id.cpd.algorithms</groupId>
+    <artifactId>au.id.cpd.eigenfaces.ui</artifactId>
+    <version>1.0</version>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>au.id.cpd.algorithms</groupId>
+            <artifactId>au.id.cpd.eigenfaces</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <sourceDirectory>${basedir}/src/</sourceDirectory>
+        <testSourceDirectory>${basedir}/test/</testSourceDirectory>
+        <outputDirectory>${basedir}/target/classes</outputDirectory>
+        <testOutputDirectory>${basedir}/target/test-classes</testOutputDirectory>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>1.3</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <packageName>au.id.cpd.eigenfaces.ui.xml</packageName>
+                    <schemaDirectory>${basedir}/xml-resources/jaxb/Model/</schemaDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+</project>

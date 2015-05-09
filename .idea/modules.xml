@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/au.id.cpd.eigenfaces/au.id.cpd.eigenfaces.iml" filepath="$PROJECT_DIR$/au.id.cpd.eigenfaces/au.id.cpd.eigenfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/au.id.cpd.eigenfaces-parent.iml" filepath="$PROJECT_DIR$/au.id.cpd.eigenfaces-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/au.id.cpd.eigenfaces.ui.iml" filepath="$PROJECT_DIR$/au.id.cpd.eigenfaces.ui/au.id.cpd.eigenfaces.ui.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model xmlns="http://www.cpd.id.au/Model">
+    <FeatureOutputFile>/Users/cd/workspace/au.id.cpd.eigenfaces.ui/test_feature.jmat</FeatureOutputFile>
+    <ImageOutputFile>/Users/cd/workspace/au.id.cpd.eigenfaces.ui/test_image.jmat</ImageOutputFile>
+    <LabelOutputFile>/Users/cd/workspace/au.id.cpd.eigenfaces.ui/test_label.jmat</LabelOutputFile>
+    <SourceDirectory>/Users/cd/workspace/au.id.cpd.eigenfaces.ui/source</SourceDirectory>
+    <VectorOutputFile>/Users/cd/workspace/au.id.cpd.eigenfaces.ui/test_vector.jmat</VectorOutputFile>
+</model>
