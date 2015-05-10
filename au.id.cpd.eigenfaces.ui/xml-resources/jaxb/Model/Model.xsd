@@ -12,7 +12,9 @@
     		<element ref="tns:VectorOutputFile"></element>
     	</sequence>
     </complexType>
-    
+
+    <element name="model" type="tns:Model"></element>
+
     <element name="ImageOutputFile" type="string"></element>
 
     <element name="LabelOutputFile" type="string"></element>

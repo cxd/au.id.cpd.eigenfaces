@@ -8,11 +8,14 @@ import java.awt.*;
 import java.io.*;
 import java.util.*;
 import javax.xml.bind.*;
+import javax.xml.stream.XMLStreamReader;
 
 import au.id.cpd.algorithms.data.*;
 import au.id.cpd.algorithms.classifier.*;
 import au.id.cpd.eigenfaces.data.*;
 import au.id.cpd.eigenfaces.data.operators.*;
+import au.id.cpd.eigenfaces.ui.xml.ObjectFactory;
+import com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl;
 
 /**
  * Model contains current view state.
@@ -167,7 +170,10 @@ public class Model implements Serializable {
     public static Model loadXmlFile(File xmlFile) {
         try {
             Unmarshaller unmarshaller = ctx.createUnmarshaller();
-            au.id.cpd.eigenfaces.ui.xml.Model model = (au.id.cpd.eigenfaces.ui.xml.Model) unmarshaller.unmarshal(xmlFile);
+            JAXBElement<au.id.cpd.eigenfaces.ui.xml.Model> jaxbModel  =
+                    (JAXBElement<au.id.cpd.eigenfaces.ui.xml.Model>)unmarshaller.unmarshal(xmlFile);
+            au.id.cpd.eigenfaces.ui.xml.Model model =
+                    jaxbModel.getValue();
             Model result = new Model(
                     model.getSourceDirectory(),
                     model.getImageOutputFile(),
@@ -196,10 +202,11 @@ public class Model implements Serializable {
             model.setLabelOutputFile(source.getLabelOutputFile().getAbsolutePath());
             model.setFeatureOutputFile(source.getFeatureFile().getAbsolutePath());
             model.setVectorOutputFile(source.getVectorFile().getAbsolutePath());
+            JAXBElement<au.id.cpd.eigenfaces.ui.xml.Model> jaxbModel = new ObjectFactory().createModel(model);
             FileOutputStream fout = new FileOutputStream(xmlFile);
             marshaller.setProperty(javax.xml.bind.Marshaller.JAXB_ENCODING, "UTF-8"); //NOI18N
             marshaller.setProperty(javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            marshaller.marshal(model, fout);
+            marshaller.marshal(jaxbModel, fout);
             fout.flush();
             fout.close();
         } catch (Exception e) {
